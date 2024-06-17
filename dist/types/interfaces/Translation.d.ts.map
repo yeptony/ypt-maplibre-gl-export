@@ -1,0 +1,1 @@
+{"version":3,"file":"Translation.d.ts","sourceRoot":"","sources":["../../../src/lib/interfaces/Translation.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,WAAW,GAAG;IACzB,QAAQ,EAAE,MAAM,CAAC;IACjB,eAAe,EAAE,MAAM,CAAC;IACxB,MAAM,EAAE,MAAM,CAAC;IACf,GAAG,EAAE,MAAM,CAAC;IACZ,QAAQ,EAAE,MAAM,CAAC;IACjB,YAAY,EAAE,MAAM,CAAC;IACrB,YAAY,EAAE,MAAM,CAAC;CACrB,CAAC"}
