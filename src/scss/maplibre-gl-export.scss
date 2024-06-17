@@ -2,6 +2,10 @@
 	display: none;
 }
 
+.mapboxgl-ctrl-group {
+	zoom: 2;
+}
+
 .maplibregl-ctrl-group .maplibregl-export-list button {
 	background: none;
 	border: none;
