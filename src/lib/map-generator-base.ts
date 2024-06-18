@@ -213,8 +213,8 @@ export abstract class MapGeneratorBase {
 		});
 
 		// Calculate pixel ratio
-		const actualPixelRatio: number = window.devicePixelRatio;
-		Object.defineProperty(window, 'devicePixelRatio', {
+		const actualPixelRatio: number = global.window.devicePixelRatio;
+		Object.defineProperty(global.window, 'devicePixelRatio', {
 			get() {
 				return this_.dpi / 96;
 			}
@@ -540,7 +540,7 @@ export abstract class MapGeneratorBase {
 
 		renderMap.remove();
 		hiddenDiv.parentNode?.removeChild(hiddenDiv);
-		Object.defineProperty(window, 'devicePixelRatio', {
+		Object.defineProperty(global.window, 'devicePixelRatio', {
 			get() {
 				return actualPixelRatio;
 			}
