@@ -1,6 +1,7 @@
 export declare const Size: {
     readonly LARGE: readonly [474, 406.2];
     readonly LANDSCAPE: readonly [609.4, 304.65];
+    readonly EXTRA: readonly [507.75, 406.2];
     readonly A2: readonly [594, 420];
     readonly A3: readonly [420, 297];
     readonly A4: readonly [297, 210];
